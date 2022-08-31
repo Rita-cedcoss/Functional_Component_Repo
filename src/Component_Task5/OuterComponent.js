@@ -3,7 +3,7 @@ import LeftCompenent from './LeftCompenent'
 import MiddleComponent from './MiddleComponent'
 import RightComponent from './RightComponent'
 import './Component.css'
-const OuterComponent=()=>{
+const OuterComponent=()=> {
   return (
     <div id="outer">
     <LeftCompenent></LeftCompenent>
@@ -13,4 +13,3 @@ const OuterComponent=()=>{
   )
 }
 export default OuterComponent
-
